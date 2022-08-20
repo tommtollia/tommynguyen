@@ -297,12 +297,14 @@ header .img-logo,.img-logo_tx{
 	align-items: center;
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 375px));
-	margin-bottom: 50px;
+	grid-template-columns: auto auto auto;
+	padding-bottom: 50px;
+	column-gap: 10px;
+	row-gap: 10px;
 }
 .img-gal_size{
-	width: 300px;
-	height: 375px;
+	width: 100%;
+	height: auto;
 	object-fit: cover;
 	object-position: center;
 }
@@ -614,5 +616,19 @@ header .img-logo,.img-logo_tx{
 	.clientca_vd{
 		width: 112px;
 		height: 140px;
+	}
+}
+
+/* section 4 */
+@media(max-width:768px){
+	.img-gal{
+		column-gap: 5px;
+		row-gap: 5px;
+	}
+}
+@media(max-width:576px){
+	.img-gal{
+		column-gap: 0px;
+		row-gap: 0px;
 	}
 }
