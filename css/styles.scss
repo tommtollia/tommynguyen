@@ -291,6 +291,9 @@ header .img-logo,.img-logo_tx{
 }
 
 /* section 4 more portfolio*/
+#img-gal-container{
+	max-width: 850px;
+}
 .img-gal{
 	position: relative;
 	justify-content: center;
@@ -299,8 +302,8 @@ header .img-logo,.img-logo_tx{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	padding-bottom: 50px;
-	column-gap: 10px;
-	row-gap: 10px;
+	column-gap: 20px;
+	row-gap: 20px;
 }
 .img-gal_size{
 	width: 100%;
@@ -628,7 +631,7 @@ header .img-logo,.img-logo_tx{
 }
 @media(max-width:576px){
 	.img-gal{
-		column-gap: 0px;
-		row-gap: 0px;
+		column-gap: 0;
+		row-gap: 0;
 	}
 }
