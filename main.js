@@ -31,7 +31,7 @@ addEventListener("click",()=>{
 window.addEventListener("scroll",function(){
     const header = document.querySelector(".container-fluid");
     const navHeader = document.querySelector('.navbarheader');
-    header.classList.toggle("bg-primary", window.scrollY > 0);
+    header.classList.toggle("navbarheader-box", window.scrollY > 0);
     navHeader.classList.toggle("sticky", window.scrollY > 0);
     navMenu.classList.toggle("sticky", window.scrollY > 0);
 })
