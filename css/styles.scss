@@ -312,6 +312,13 @@ header .img-logo,.img-logo_tx{
 	object-position: center;
 }
 
+/* section 5 hire me*/
+.bg-hireme{
+	width: 100%;
+	background-size: cover;
+	background-image: url("/images/hiremeimg.jpg");
+}
+
 /* general responsive */
 @media(max-width:1200px){
 	.box{
