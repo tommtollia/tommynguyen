@@ -336,11 +336,8 @@ header .img-logo,.img-logo_tx{
 	list-style: none;
 	margin: 0 20px;
 }
-.hire-link{
-	font-size: 4em;
-	color: #bebebe;
-}
-.hire-link, .hire-link2, .hire-link3{
+
+.hire-link, .hire-link3{
 	font-size: 5em;
 	color: white;
 }
@@ -355,6 +352,23 @@ header .img-logo,.img-logo_tx{
 	font-size: 6em;
 	color:#0072b1;
 	transition: .2s ease-in-out;
+}
+
+.contact{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact-item{
+	list-style: none;
+	margin: 5px 0;
+	color: white;
+	font-size: 2em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 8px;
 }
 
 
@@ -679,5 +693,12 @@ header .img-logo,.img-logo_tx{
 	.img-gal{
 		column-gap: 0;
 		row-gap: 0;
+	}
+}
+
+/* section 5*/
+@media(max-width: 768px){
+	h2{
+		font-size: 20px;
 	}
 }
