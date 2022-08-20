@@ -10,7 +10,9 @@ $padding: 12px 20px;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
-
+ul li a{
+	text-decoration: none;
+}
 body {
 	margin: 0; /* Ingen kanter i siden af browser */
 	overflow-x: hidden;
@@ -316,9 +318,57 @@ header .img-logo,.img-logo_tx{
 .bg-hireme{
 	width: 100%;
 	background-size: cover;
+	background-position: center;
 	background-image: url("/images/hiremeimg.jpg");
 }
+.hireme-h{
+	height: 750px;
+}
+.hireme-h2{
+	height: 350px;
+}
+.hire-some{
+	position: relative;
+	display: flex;
+}
+.hire-some .hire-item{
+	position: relative;
+	list-style: none;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.hire-some .hire-item .hire-link .fab{
+	font-size: 6em;
+	color: #bebebe;
+}
+.hire-some .hire-item::before{
+	font-family: "FontAwesome";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 6em;
+	height: 0;
+	overflow: hidden;
+}
+.hire-some .hire-item:nth-child(1)::before{
+	content: "\f16d";
+	background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #cc2366 75%, #bc1888 100%);
+	-webkit-background-clip: text;
+	-webkit-text-decoration-color: transparent;
+}
 
+.hire-some .hire-item:nth-child(2)::before{
+	content: "\f09a";
+	color:#4267B2;
+}
+
+.hire-some .hire-item:nth-child(3)::before{
+	content: "\f08c";
+	color: #0072b1;
+}
+.hire-some .hire-item:hover::before{
+	height:100%;
+}
 /* general responsive */
 @media(max-width:1200px){
 	.box{
