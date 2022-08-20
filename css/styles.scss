@@ -13,6 +13,7 @@ $padding: 12px 20px;
 
 body {
 	margin: 0; /* Ingen kanter i siden af browser */
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -283,6 +284,23 @@ header .img-logo,.img-logo_tx{
 .clientca_vd{
 	width: 320px;
 	height: 400px;
+}
+
+/* section 4 more portfolio*/
+.img-gal{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 375px));
+	margin-bottom: 50px;
+}
+.img-gal_size{
+	width: 300px;
+	height: 375px;
+	object-fit: cover;
+	object-position: center;
 }
 
 /* header */
