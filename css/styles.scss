@@ -46,7 +46,9 @@ img {
 	max-width: 100%; /* Bredde må maks fylde 100% */
 	height: auto; /* Højden skal tilpasse sig */
 }
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 }
 /* scroll snap */
@@ -700,5 +702,10 @@ header .img-logo,.img-logo_tx{
 @media(max-width: 768px){
 	h2{
 		font-size: 20px;
+	}
+}
+@media(max-width: 576px){
+	.hireme-h{
+		height: 600px;
 	}
 }
