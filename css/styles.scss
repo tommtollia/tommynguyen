@@ -370,6 +370,16 @@ header .img-logo,.img-logo_tx{
 	align-items: center;
 	column-gap: 8px;
 }
+.contact-item_mail{
+	text-decoration: none;
+	color: white;
+}
+.contact-item_mail:hover{
+	text-shadow: 3px 3px 3px black;
+	color: #bebebe;
+	font-size: 1.10em;
+	transition: .2s ease-in-out;
+}
 
 /* general responsive */
 @media(max-width:1200px){
