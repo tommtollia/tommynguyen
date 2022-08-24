@@ -202,7 +202,7 @@ header .img-logo,.img-logo_tx{
 .slide-main{
 	top:38%;
 	width: 50%;
-	left: 25%
+	left: 25%;
 }
 .slide-main_img{
 	height: 400px;
@@ -214,22 +214,23 @@ header .img-logo,.img-logo_tx{
 	font-size: 28px;
 	transition: .5s ease-in;
 }
-.slide-main_tx2{
-	font-size: 25px;
-	padding: 8px 0;
-	transition: .5s ease-in;
+.slider_btn{
+	margin: 8px 0;
+	padding: 2px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: rgba(255,255,255,0.7) 4px 4px;
+	border-radius: 10px;
+	font-weight: bold;
+	transition: 0.3s ease-in-out;
 }
-.slide-main_caption{
-	height:670px;
-}
-.slide-main_caption_tx1{
-	padding-bottom: 12px;
-	transition: .5s ease-in;
-}
-.slide-main_caption_tx2{
-	font-size: 18px;
-	padding: 3px 0;
-	transition: .5s ease-in;
+.slider_btn:hover{
+	color: black;
+	background-color: white;
+	box-shadow: black 4px 4px;
+	transition: 0.3s ease-in-out;
 }
 
 /* section 2 content creator*/
@@ -475,94 +476,26 @@ header .img-logo,.img-logo_tx{
 
 /* main */
 @media(max-width:1200px){
-	.carousel-item{
-
-	}
 	.slide-main{
 
 	}
-	.slide-main_img{
-		height: 320px;
-	}
-	.slide-main_tx{
-		font-size: 20px;
-	}
-	.slide-main_tx2{
-		font-size: 19px;
-		padding: 5px 0;
-	}
-	.slide-main_caption{
-		height:550px;
-	}
-	.slide-main_caption_tx1{
-		padding-bottom: 8px;
-	}
+
 }
 @media(max-width:1000px){
-	.carousel-item{
-
-	}
 	.slide-main{
 
 	}
-	.slide-main_img{
-		height: 220px;
-	}
-	.slide-main_tx{
-		font-size: 18px;
-	}
-	.slide-main_tx2{
-		font-size: 16px;
-		padding: 5px 0;
-	}
-	.slide-main_caption{
-		height:420px;
-	}
-	.slide-main_caption_tx2{
-		font-size: 16px;
-		padding: 3px 0;
-	}
+
 }
 @media(max-width:768px){
-	.carousel-item{
-
-	}
 	.slide-main{
 
-	}
-	.slide-main_img{
-		height: 150px;
-	}
-	.slide-main_tx{
-		font-size: 16px;
-	}
-	.slide-main_tx2{
-		display: none;
-	}
-	.slide-main_caption{
-		height:320px;
-	}
-	.slide-main_caption_tx2{
-		display: none;
 	}
 }
 @media(max-width:576px){
-	.carousel-item{
-
-	}
 	.slide-main{
 
 	}
-	.slide-main_img{
-		height: 90px;
-	}
-	.slide-main_caption{
-		height:200px;
-	}
-	.slide-main_caption_tx1{
-		padding-bottom: 4px;
-	}
-
 }
 
 /* section 2 */
