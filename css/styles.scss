@@ -355,6 +355,7 @@ header .img-logo,.img-logo_tx{
 .hire-link, .hire-link3{
 	font-size: 5em;
 	color: white;
+	transition: .2s ease-in-out;
 }
 .hire-link:hover{
 	font-size: 6em;
@@ -387,6 +388,7 @@ header .img-logo,.img-logo_tx{
 .contact-item_mail{
 	text-decoration: none;
 	color: white;
+	transition: .2s ease-in-out;
 }
 .contact-item_mail:hover{
 	text-shadow: 3px 3px 3px black;
@@ -484,22 +486,6 @@ header .img-logo,.img-logo_tx{
 	.banner{
 		background-position: center;
 	}
-}
-
-/* main */
-@media(max-width:1200px){
-
-
-}
-@media(max-width:1000px){
-
-
-}
-@media(max-width:768px){
-
-}
-@media(max-width:576px){
-
 }
 
 /* section 2 */
