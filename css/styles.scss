@@ -74,7 +74,7 @@ body{
 }
 .menu-btn__burger{
 	width:25px;
-	height:3.5px;
+	height:4px;
 	background: #fff;
 	border-radius: 2px;
 	transition: all .5s ease-in-out;
@@ -84,16 +84,16 @@ body{
 	content:'';
 	position:absolute;
 	width:25px;
-	height:3.5px;
+	height:4px;
 	background:#fff;
 	border-radius:2px;
 	transition: all .5s ease-in-out;
 }
 .menu-btn__burger::before {
-	transform: translateY(-8px);
+	transform: translateY(-7px);
 }
 .menu-btn__burger::after {
-	transform: translateY(8px);
+	transform: translateY(7px);
 }
 /* hamburger menu Animation*/
 .menu-btn.open .menu-btn__burger{
@@ -211,10 +211,6 @@ header .img-logo,.img-logo_tx{
 	left: 0;
 	padding: 0;
 	margin: 0;
-}
-
-.slide-main{
-
 }
 .slide-main_img{
 	height: 400px;
