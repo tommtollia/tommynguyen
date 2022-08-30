@@ -463,6 +463,22 @@ header .img-logo,.img-logo_tx{
 		height: 190px;
 	}
 }
+@media(max-width: 768px){
+	.prevbtn{
+		top: 70%
+	}
+	.nextbtn{
+		top: 70%
+	}
+}
+@media(max-width:576px){
+	.prevbtn{
+		font-size: 16px;
+	}
+	.nextbtn{
+		font-size: 16px;
+	}
+}
 
 /* header */
 @media(max-width:768px){
