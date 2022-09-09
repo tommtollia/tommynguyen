@@ -5,7 +5,8 @@
 $custom-colors: ("primary": #000,
         "secondary": #BEBEBE,
         "third": #fff,
-        "fourth": rgba(0, 0, 0, 0.5));
+        "fourth": rgba(0, 0, 0, 0.5),
+"fifth": #2B2B2B);
 
 $theme-colors:map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
