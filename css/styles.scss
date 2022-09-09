@@ -299,6 +299,14 @@ header .img-logo,.img-logo_tx{
 	transition: 0.3s ease-in-out;
 }
 
+/* main*/
+.main_txtbox{
+	padding: 5em 0;
+	width: 50%;
+}
+.main_headline{
+	color: black;
+}
 
 /* section 2 content creator*/
 .contentcreator{
@@ -556,6 +564,18 @@ header .img-logo,.img-logo_tx{
 	}
 	.banner{
 		background-position: center;
+	}
+}
+
+/* main */
+@media(max-width:768px){
+.main_txtbox{
+	width: 75%;
+}
+}
+@media(max-width:576px){
+	.main_txtbox{
+		width: 85%;
 	}
 }
 
