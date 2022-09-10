@@ -31,13 +31,9 @@ addEventListener("click",()=>{
 window.addEventListener("scroll",function(){
     const header = document.querySelector(".container-fluid");
     const navHeader = document.querySelector(".navbarheader");
-    const nextbTn = document.querySelector(".nextbtn");
-    const prevbTn = document.querySelector(".prevbtn");
-
 
     header.classList.toggle("navbarheader-box", window.scrollY > 0);
     navHeader.classList.toggle("sticky", window.scrollY > 0);
     navMenu.classList.toggle("sticky", window.scrollY > 0);
-    nextbTn.classList.toggle("reveal", window.scrollY > 0);
-    prevbTn.classList.toggle("reveal", window.scrollY > 0);
 })
+
