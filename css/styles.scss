@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0; /* Ingen ydre margen fra overskrifter */
 	padding: 0; /* Ingen indre margen fra overskrifter */
 	color: white;
+	font-family: "Oswald";
+	font-weight: bold;
 }
 
 ul, ol {
@@ -38,6 +40,8 @@ li {
 p {
 	margin: 0; /* Ingen ydre margen fra paragraffer */
 	padding: 0; /* Ingen indre margen fra paragraffer */
+	font-family: "Oswald";
+	font-weight: normal;
 }
 
 /* Sikrer billeder er responsive */
@@ -391,7 +395,9 @@ div .cards .cardsvd{
 	background-size: cover;
 	background-position: center;
 }
-
+.main-txtp{
+	font-size: 20px;
+}
 /* section 2 videography & experience*/
 .contentcreator{
 	width: 100%;
